@@ -16,6 +16,7 @@ const devConfig = {
     hot: true,
     historyApiFallback: true
   },
+  
   target: "web",
   plugins: [new HotModuleReplacementPlugin(), new ReactRefreshWebpackPlugin()],
   devtool: "eval-source-map",
